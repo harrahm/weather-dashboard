@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: slategrey;
+}
+
+header,
+h1 {
+  /* width: 100%; */
+  background-color: cornflowerblue;
+  padding: 1%;
+  color: whitesmoke;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+.search {
+  size: 290px;
+  padding: 30%;
+  text-align: end;
+  margin: 20px;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  width: 100%;
+  margin-top: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
