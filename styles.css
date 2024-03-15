@@ -1,19 +1,54 @@
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: slategrey;
+  color: whitesmoke;
+  background-color: slategrey;
 }
 
 header,
 h1 {
-  /* width: 100%; */
   background-color: cornflowerblue;
-  padding: 1%;
+  padding: 0.5% 2%;
   color: whitesmoke;
+  text-transform: uppercase;
 }
 
-h1 {
-  text-transform: capitalize;
+ul.nav_bar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+ul.nav_bar li {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+}
+
+ul.nav_bar li a {
+  /* width: 60px; */
+  display: block;
+  padding: 8px;
+  background-color: rgb(61, 90, 143);
+  color: whitesmoke;
+  text-decoration: none;
+  
+}
+
+ul.nav_bar li a:hover {
+  background-color: rgb(38, 57, 92);
+}
+
+ul.nav_bar li a::selection {
+  background-color: dodgerblue;
+}
+
+@media screen and (max-width: 600px) {
+  ul.nav_bar li.right, 
+  ul.nav_bar li {float: none;}
 }
 
 .search {
