@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
-  background-color: slategrey;
+  background-color: #87CEEB;
 }
 
 header,
@@ -15,6 +15,7 @@ h1 {
 
 ul.nav_bar {
   list-style-type: none;
+  
   margin: 0px;
   padding: 0;
   overflow: hidden;
@@ -23,19 +24,20 @@ ul.nav_bar {
 
 ul.nav_bar li {
   display: inline;
+  
   float: left;
   text-align: center;
-  width: 33.3%;
+  width: 33.33333333333333333333%;
 }
 
 ul.nav_bar li a {
   /* width: 60px; */
   display: block;
   padding: 8px;
-  background-color: rgb(61, 90, 143);
-  color: whitesmoke;
+  background-color: #D3D3D3;
+  color: darkslategrey;
   text-decoration: none;
-  
+  border: 1px solid #808080;
 }
 
 ul.nav_bar li a:hover {
